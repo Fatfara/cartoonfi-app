@@ -1,26 +1,8 @@
-# Core image processing libraries
+streamlit==1.28.1
 opencv-python==4.8.1.78
+opencv-contrib-python==4.8.1.78
 numpy==1.24.3
 Pillow==10.0.1
-
-# Streamlit for web interface
-streamlit==1.28.1
-
-# Additional dependencies that might be needed
-opencv-contrib-python==4.8.1.78
-
-# Optional: For better performance and additional image formats
 scikit-image==0.21.0
 matplotlib==3.7.2
-
-# For handling different image formats
 imageio==2.31.5
-
-# System dependencies (if needed)
-# Note: These might need to be installed via system package manager on some systems
-# libglib2.0-0
-# libsm6
-# libxext6
-# libxrender-dev
-# libgomp1
-# libgstreamer1.0-0
